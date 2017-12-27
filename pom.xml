@@ -8,8 +8,8 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.3.5.RELEASE</version>
     </parent>
-    <groupId>cn.teaey.sprintboot.test</groupId>
-    <artifactId>dubbo-starter</artifactId>
+    <groupId>com.picture</groupId>
+    <artifactId>sample</artifactId>
     <version>1.0</version>
     <modules>
         <module>api</module>

@@ -1,5 +1,6 @@
-package cn.teaey.sprintboot.test;
+package com.picture;
 
+import cn.teaey.sprintboot.test.EchoService;
 import com.alibaba.dubbo.config.annotation.Service;
 
 /**
