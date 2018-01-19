@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * @author xiaofei.wxf(teaey)
- * @since 0.0.0
+ * @author yank
+ * 2018/1/19
  */
 @SpringBootApplication
 public class Server {

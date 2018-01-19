@@ -1,12 +1,11 @@
 package com.picture;
 
-import cn.teaey.sprintboot.test.EchoService;
 import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Component;
 
 /**
- * @author xiaofei.wxf(teaey)
- * @since 0.0.0
+ * @author yank
+ * 2018/1/19
  */
 @Component
 public class AbcService {
