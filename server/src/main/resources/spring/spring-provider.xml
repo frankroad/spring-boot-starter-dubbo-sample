@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+              http://www.springframework.org/schema/beans/spring-beans.xsd
+              http://code.alibabatech.com/schema/dubbo
+              http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!-- 服务调用超时时间 5s，服务调用失败不重试，当 spring 容器初始化完后才暴露服务 -->
+    <dubbo:provider delay="-1" timeout="50000" retries="0" threadpool="fixed" threads="10000" accepts="10000"/>
+
+    <dubbo:service interface="com.pictureknow.picture.api.EchoService" ref="echoServiceImpl" timeout="50000"/>
+
+</beans>
