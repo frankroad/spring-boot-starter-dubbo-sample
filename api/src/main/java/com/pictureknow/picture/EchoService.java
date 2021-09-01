@@ -1,4 +1,4 @@
-package com.picture;
+package com.pictureknow.picture;
 
 /**
  * @author yank

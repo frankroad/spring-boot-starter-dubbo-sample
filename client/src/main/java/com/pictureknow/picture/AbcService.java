@@ -1,4 +1,4 @@
-package com.picture;
+package com.pictureknow.picture;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Component;
