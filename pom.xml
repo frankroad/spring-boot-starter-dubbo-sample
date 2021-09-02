@@ -8,7 +8,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.9.RELEASE</version>
     </parent>
-    <groupId>com.pictureknow</groupId>
+    <groupId>com.pictureknow.picture</groupId>
     <artifactId>picture</artifactId>
     <version>1.0</version>
     <modules>
